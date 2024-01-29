@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import ModalProvider from "@/providers/modal-providers";
 
 
 
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={urbanist.className}>
+        <ModalProvider />
         <Navbar/>
         {children}
         <Footer/>
