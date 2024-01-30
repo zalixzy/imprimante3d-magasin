@@ -8,16 +8,17 @@ import Summary from "./components/summary";
 
 
 const CartPage = () => {
+    const cart = useCart();
    // Afin d'éviter les erreurs d'hydratation des
-//    const [isMounted, setIsMounted] = useState(false);
-//    useEffect(() =>{
-//   setIsMounted(true);
-//     }, []);
-//    if(!isMounted){
-// return null;
-// }
+   const [isMounted, setIsMounted] = useState(false);
+   useEffect(() =>{
+  setIsMounted(true);
+    }, []);
+   if(!isMounted){
+return null;
+}
 
-   const cart = useCart();
+  
    
    
     return (
