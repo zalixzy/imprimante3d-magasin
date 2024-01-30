@@ -21,7 +21,7 @@ const Summary = () => {
             toast.success("Paiement réussit!")
             removeAll()
         }
-        if(searchParams.get("canceld")){
+        if(searchParams.get("canceled")){
             toast.error("Une erreur s'est produite.")
         }
     }, [searchParams, removeAll])
