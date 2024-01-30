@@ -32,6 +32,7 @@ const Button: React.FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>
             `,
             className
         )}
+        disabled={disabled}
         ref={ref}
         {...props}
         >
