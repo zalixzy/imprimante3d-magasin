@@ -7,8 +7,9 @@ import Container from "@/components/ui/container"
 export const revalidate = 0;
 const HomePage = async () =>{
     const products = await getProducts({isFeatured: true})
+    //A CHANGER AVEC UN BILLBOARD PAR DEFAUT SUR ACCUEIL ECRAN
     // const billboard = await getBillboard("3a9871b2-1a73-4ba9-a52c-e01de9176b52");
-    const billboard = await getBillboard("984df5d4-bf78-4f94-9883-fb3a56aca407");
+    const billboard = await getBillboard("92813994-ad9b-442c-a5c0-2e2a53fc7ec5");
 
     return(
         <Container>
