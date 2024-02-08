@@ -14,7 +14,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Magasin",
+  title: "Imprim3D",
   description: "Imprim3d",
 };
 
